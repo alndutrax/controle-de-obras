@@ -1,24 +1,32 @@
-# Controle de Obras
+# Controle de Obras 🏗️
 
-Sistema simples para gerenciamento de obras, desenvolvido com Java, Spring Boot e HTML/JavaScript no front-end.
+Sistema simples para cadastro de obras com Java + Spring Boot (backend) e HTML + JavaScript (frontend).
 
 ## Funcionalidades
-
-- Cadastro de obras com informações básicas
-- Listagem de obras cadastradas
-- API REST para operações CRUD
-- Front-end integrado para facilitar o uso
+✅ Cadastro de obras  
+✅ Listagem automática de obras cadastradas  
+✅ Integração com backend via API REST
 
 ## Tecnologias usadas
-
-- Java 21
-- Spring Boot 3.3.13
-- H2 Database (banco em memória)
-- HTML, JavaScript (fetch API)
+- Java 17
+- Spring Boot
 - Maven
+- HTML5 + CSS3
+- JavaScript puro (Fetch API)
 
-## Como rodar o projeto
+## Como rodar
+Clone o repositório:
 
-1. Clone o repositório:
-```bash
 git clone https://github.com/alndutrax/controle-de-obras.git
+
+Entre na pasta do backend:
+
+cd controle-de-obras/controleobras
+
+Rode a aplicação:
+
+mvn spring-boot:run
+
+Abra o arquivo index.html no navegador para usar o sistema.
+
+Feito com 💻 por @alndutrax
