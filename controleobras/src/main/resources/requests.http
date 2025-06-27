@@ -1,0 +1,38 @@
+### LISTAR TODAS AS OBRAS
+GET http://localhost:8080/obras
+Accept: application/json
+
+###
+
+### CADASTRAR UMA NOVA OBRA
+POST http://localhost:8080/obras
+Content-Type: application/json
+
+{
+  "nome": "Obra da Avenida A",
+  "endereco": "Avenida A, nº 100",
+  "responsavel": "Carlos Silva"
+}
+
+###
+
+### BUSCAR OBRA POR ID
+GET http://localhost:8080/obras/1
+Accept: application/json
+
+###
+
+### ATUALIZAR OBRA
+PUT http://localhost:8080/obras/1
+Content-Type: application/json
+
+{
+  "nome": "Obra da Avenida B",
+  "endereco": "Avenida B, nº 200",
+  "responsavel": "Joana Souza"
+}
+
+###
+
+### DELETAR OBRA
+DELETE http://localhost:8080/obras/1
